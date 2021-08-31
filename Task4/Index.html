@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Task3</title>
+    </head>
+    <body>
+        <div id="wrapper">
+            <form action="#">
+                <div>
+                    <label for="name">
+                        <b>Full name</b>
+                        <input name="name" id="name" type="text" pattern="[(a-zA-Z\s)+(a-zA-Z\s)+(a-zA-Z)]{5,25}" title="Введите Ваше полное имя" required="required">
+                    </label>
+                </div>
+                <div>
+                    <label for="email">
+                        <b>Email</b>
+                        <input name="email" id="email" type="email" pattern="([a-zA-Z0-9._%$+-]{3,})+@([^0-9])+([a-zA-Z0-9-]{2,})+\.[a-z]{2,}$" title="Ваш email должен содержать минимум три символа + @ + три символа не начинающиеся на цифру + . + минимум две буквы строчного регистра" placeholder="example@example.com" required="required">
+                    </label>
+                </div>
+                <div>
+                    <label for="password">
+                        <b>Password</b>
+                        <input name="password" id="password" type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Пароль должен содержать минимум 8 символов, одну цифру, одну заглавную и одну строчную буквы" placeholder="******" required="required">
+                    </label>
+                </div>
+                <div>
+                    <button type="submit">Register profile</button>
+                </div>
+            </form>
+        </div>
+        <hr>
+        <table cellpadding="15" cellspacing="1" border="1" cols="13" width="500">
+            <caption><em>A test table with merged cells</em></caption>
+            <thead>
+                <tr>
+                    <th rowspan="2"></th>
+                    <th colspan="2">Average</th>
+                    <th rowspan="2">Red eyes</th>
+                </tr>
+                <tr>
+                    <th>height</th>
+                    <th>weight</th>
+                </tr> 
+            </thead>
+            <tbody>    
+                <tr>
+                    <th>Males</th>
+                    <td>1.9</td>
+                    <td>0.003</td>
+                    <td>40%</td>
+                </tr>
+                <tr>
+                    <th>Females</th>
+                    <td>1.7</td>
+                    <td>0.002</td>
+                    <td>43%</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
