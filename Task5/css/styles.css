@@ -1,0 +1,79 @@
+body {
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+#wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.footer {
+    height: 200px;
+    background-color: black;
+}
+
+.text1 {
+    border: 4px dotted blue;
+    padding: 10px;
+    background-color: rgb(236, 192, 198);
+    color: darkblue;
+    font: 40px 'Kaisei HarunoUmi-Bold';
+}
+
+.text2 {
+    width: 512px;
+    height: 288px;
+    background-image: url(../images/Hello.jpg);
+    color: white;
+    font: 25px 'Kaisei HarunoUmi-Medium';
+    opacity: 0.9;
+    margin: 25px;
+    padding: 180px 15px 0px 15px;
+    text-align: justify;
+}
+
+header {
+    background-color: red; 
+    /* level 1 */
+}
+
+.header {
+    background-color: green;
+    /* level 2 */
+}
+
+[class="header"] {
+    background-color: blue;
+    /* level 2 */
+}
+
+#header {
+    background-color: yellow;
+    /* level 3 */
+}
+
+body #wrapper header {
+    background-color: red;
+    /* level 4 */
+}
+
+/* inline styles {
+    level 5
+} */
+h1, h2, h3 {
+    color: red;
+}
+
+header {
+    background-color: aqua !important;
+
+    /* level 6 */
+    padding: 20px 10px;
+    margin: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    border: 5px solid red;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+}
