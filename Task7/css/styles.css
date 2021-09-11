@@ -1,0 +1,175 @@
+body {
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+#wrapper {
+    position: relative;
+    overflow-x: hidden;
+    margin: 0px auto;
+}
+
+#wrapper1 {
+    position: relative;
+    overflow-x: hidden;
+    margin: 0px auto;
+    max-width: 800px;
+    height: 600px;
+}
+
+.A {
+    position: relative;
+    background-color: green;
+    width: 70%;
+    height: 50%;
+    border: white 10px solid;
+}
+
+.textA {
+    position: absolute;
+    top: 45%;
+    right: 50%;
+    color: white;
+    font-size: 28px;
+}
+
+.letterA {
+    position: sticky;
+    top: 50px;
+}
+
+.B {
+    position: absolute;
+    background-color: rgb(236, 143, 106);
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    border: white 10px solid;
+}
+
+.textB {
+    position: absolute;
+    top: 46%;
+    right: 50%;
+    color: white;
+    font-size: 28px;
+}
+
+.C {
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    top: 38%;
+    left: 36.5%;
+}
+
+.textC {
+    position: absolute;
+    top: 30%;
+    right: 40%;
+    color: rgb(167, 106, 236);
+    font-size: 28px;
+}
+
+.C1 {
+    position: absolute;
+    background-color: rgb(167, 106, 236);
+    bottom: 0;
+    width: 70%;
+    height: 50%;
+    border: white 10px solid;
+}
+
+.textC1 {
+    position: absolute;
+    top: 45%;
+    right: 50%;
+    color: white;
+    font-size: 28px;
+}
+
+#wrapper2 {
+    position: relative;
+    overflow-x: hidden;
+    margin: 0px auto;
+    max-width: 1200px;
+    height: 300px;
+}
+
+.A1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: yellow;
+    width: 800px;
+    height: 200px;
+    border: black 1px solid;
+    z-index: 4;
+}
+
+.text1 {
+    position: absolute;
+    top: 30%;
+    right: 50%;
+    color: black;
+    font-size: 28px;
+}
+
+.A2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: blue;
+    width: 800px;
+    height: 200px;
+    border: black 1px solid;
+    z-index: 2;
+}
+
+.text2 {
+    position: absolute;
+    top: 30%;
+    right: 47%;
+    color: black;
+    font-size: 28px;
+}
+
+.A3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: green;
+    width: 800px;
+    height: 200px;
+    border: black 1px solid;
+    z-index: 3;
+}
+
+.text3 {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    color: black;
+    font-size: 28px;
+}
+
+.A4 {
+    position: absolute;
+    background-color: red;
+    bottom: 0;
+    right: 0;
+    width: 800px;
+    height: 200px;
+    border: black 1px solid;
+    z-index: 3;
+}
+
+.text4 {
+    position: absolute;
+    top: 50%;
+    right: 47%;
+    color: black;
+    font-size: 28px;
+}
