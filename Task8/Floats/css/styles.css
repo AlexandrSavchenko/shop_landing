@@ -1,0 +1,72 @@
+body {
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+#wrapper {
+    position: relative;
+    overflow-x: hidden;
+    margin: 0px auto;
+}
+
+.header {
+    width: calc(100% - 20px);
+    min-height: 17vh;
+    background: blue;
+    text-align: center;
+    color: white;
+    margin: 10px 10px 10px 10px;
+    padding: 25px;
+}
+
+.float::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.float {
+    height: 59vh;
+}
+
+.sideNaw {
+    width: calc(20% - 15px);
+    height: 100%;
+    float: left;
+    background: lightcoral;
+    text-align: center;
+    color: white;
+    margin: 0px 5px 10px 10px;
+    padding: 25px;
+}
+
+.mainContent {
+    width: calc(60% - 10px);
+    height: 100%;
+    float: left;
+    background: yellowgreen;
+    text-align: center;
+    color: white;
+    margin: 0px 5px 10px 5px;
+    padding: 25px;
+}
+
+.sideBar {
+    width: calc(20% - 15px);
+    height: 100%;
+    float: left;
+    background: lightcoral;
+    text-align: center;
+    color: white;
+    margin: 0px 10px 10px 5px;
+    padding: 25px;
+}
+
+.footer {
+    width: calc(100% - 20px);
+    min-height: 17vh;
+    background: blue;
+    text-align: center;
+    color: white;
+    margin: 10px 10px 10px 10px;
+    padding: 25px;
+}
