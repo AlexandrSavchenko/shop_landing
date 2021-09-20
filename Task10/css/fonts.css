@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Kaisei HarunoUmi', serif;
+    src: url(../fonts/Kaisei_HarunoUmi/KaiseiHarunoUmi-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Kaisei HarunoUmi-Medium', serif;
+    src: url(../fonts/Kaisei_HarunoUmi/KaiseiHarunoUmi-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Kaisei HarunoUmi-Bold', serif;
+    src: url(../fonts/Kaisei_HarunoUmi/KaiseiHarunoUmi-Bold.ttf);
+}
