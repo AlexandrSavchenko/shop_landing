@@ -1,0 +1,85 @@
+body {
+    font-family: 'Kaisei HarunoUmi', serif;
+}
+
+#wrapper {
+    position: relative;
+    overflow-x: hidden;
+}
+
+a[href="http://google.com"] {
+    display: block;
+    padding: 2em;
+    pointer-events: none;
+  }
+
+.text1 {
+    width: 512px;
+    height: 180px;
+    padding: 0em 2em 2em 2em;
+    text-indent: 2em;
+    transition: background .3s ease;
+}
+
+.text2 {
+    color: black;
+    font: 25px 'Kaisei HarunoUmi-Medium';
+    margin: 5px;
+    padding: 1em;
+    text-align: justify;
+    visibility: hidden;
+}
+
+.text3 {
+    word-spacing: 5px;
+}
+
+.text4 {
+    letter-spacing: 5px;
+}
+
+.text5 {
+    width: 512px;
+    height: 180px;
+    padding: 0em 2em 2em 2em;
+    text-indent: 2em;
+    word-break: normal;
+    margin: 1em;
+}
+
+img {
+    width: 380px;
+    height: 500px;
+    border: 10px double blue;
+    border-radius: 3em;
+    object-fit: cover;
+}
+
+p::first-letter {
+    color: rgb(243, 4, 4);
+}
+
+p::first-line {
+    color: rgb(76, 4, 243);
+}
+
+p::selection {
+    color: rgb(32, 243, 4);
+    background: blueviolet;
+}
+
+.text3::after {
+    content: "!!!";
+    color: red;
+    background-color: rgb(79, 6, 214);
+    font-size: 20px;
+}
+
+b:last-child {
+    color: rgb(0, 204, 255);
+}
+
+.text1:hover {
+    background: yellow;
+    color: rgb(97, 97, 95);
+}
