@@ -1,0 +1,66 @@
+@import 'reset';
+@import 'vars';
+
+body {
+    font-family: 'Kaisei HarunoUmi', serif;
+    font-size: 14px;
+
+    @media (min-width: 580px) {
+            font-size: 16px;
+    }  
+}
+
+#wrapper {
+    position: relative;
+    overflow-x: hidden;
+    margin: 0px auto;
+    padding: 15px;
+    background: var($background-color);
+}
+
+.title {
+    font-size: 30px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.flex {
+    @media (min-width: 580px) {
+        display: flex;
+    } 
+
+    &__row {
+        @media (min-width: 580px) {
+            width: calc(80% - 20px);
+        }
+        @media (min-width: 1024px) {
+            display: flex;
+        }
+    }
+
+    &__col {
+        background: rgb(164, 174, 226);
+        color: black;
+        border: black solid 1px;
+        padding: 100px;
+        min-height: 250px;
+        text-align: center;
+
+        @media (min-width: 1024px) {
+            width: calc(80% - 20px);
+            height: 50%;
+        }
+    }
+
+    &__sidebar {
+        background: var($background-color);
+        color: black;
+        border: black solid 1px;
+        padding: var($sidebar-padding);
+
+        @media (min-width: 580px) {
+            width: 20%;
+            margin-left: var($sidebar-margin-left);
+        } 
+    }
+}
