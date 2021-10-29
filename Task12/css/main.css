@@ -1,0 +1,283 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background: black;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  background: #ff9a04;
+  overflow: hidden;
+  -webkit-animation-name: blur;
+          animation-name: blur;
+  -webkit-animation-duration: 3.5s;
+          animation-duration: 3.5s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 20%;
+  height: 75%;
+  background: black;
+  border-radius: 20px;
+  -webkit-animation-name: ride;
+          animation-name: ride;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+.panel__light {
+  width: 100px;
+  height: 100px;
+  background: lightgrey;
+  border-radius: 100%;
+  -webkit-animation-name: colorChange;
+          animation-name: colorChange;
+  -webkit-animation-duration: 18s;
+          animation-duration: 18s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.pillar {
+  width: 50px;
+  height: 20%;
+  background: black;
+  -webkit-animation-name: ride;
+          animation-name: ride;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+#red {
+  -webkit-animation-name: redColor;
+          animation-name: redColor;
+}
+
+#yellow {
+  -webkit-animation-name: yellowColor;
+          animation-name: yellowColor;
+}
+
+#green {
+  -webkit-animation-name: greenColor;
+          animation-name: greenColor;
+}
+
+@-webkit-keyframes greenColor {
+  0% {
+    background-color: grey;
+  }
+  60% {
+    background-color: grey;
+  }
+  61% {
+    background-color: green;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+@keyframes greenColor {
+  0% {
+    background-color: grey;
+  }
+  60% {
+    background-color: grey;
+  }
+  61% {
+    background-color: green;
+  }
+  100% {
+    background-color: green;
+  }
+}
+@-webkit-keyframes yellowColor {
+  0% {
+    background-color: grey;
+  }
+  39% {
+    background-color: grey;
+  }
+  40% {
+    background-color: yellow;
+  }
+  60% {
+    background-color: yellow;
+  }
+  61% {
+    background-color: grey;
+  }
+  100% {
+    background-color: grey;
+  }
+}
+@keyframes yellowColor {
+  0% {
+    background-color: grey;
+  }
+  39% {
+    background-color: grey;
+  }
+  40% {
+    background-color: yellow;
+  }
+  60% {
+    background-color: yellow;
+  }
+  61% {
+    background-color: grey;
+  }
+  100% {
+    background-color: grey;
+  }
+}
+@-webkit-keyframes redColor {
+  0% {
+    background-color: red;
+  }
+  39% {
+    background-color: red;
+  }
+  40% {
+    background-color: grey;
+  }
+  100% {
+    background-color: grey;
+  }
+}
+@keyframes redColor {
+  0% {
+    background-color: red;
+  }
+  39% {
+    background-color: red;
+  }
+  40% {
+    background-color: grey;
+  }
+  100% {
+    background-color: grey;
+  }
+}
+#wrapper {
+  -webkit-animation-name: blur;
+          animation-name: blur;
+}
+
+@-webkit-keyframes blur {
+  from {
+    opacity: 0;
+    filter: blur(15px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+
+@keyframes blur {
+  from {
+    opacity: 0;
+    filter: blur(15px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+#panel #pillar {
+  -webkit-animation-name: ride;
+          animation-name: ride;
+}
+
+@-webkit-keyframes ride {
+  from {
+    margin-bottom: -20%;
+  }
+  to {
+    margin-bottom: 0;
+  }
+}
+
+@keyframes ride {
+  from {
+    margin-bottom: -20%;
+  }
+  to {
+    margin-bottom: 0;
+  }
+}/*# sourceMappingURL=main.css.map */
